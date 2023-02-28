@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { ref, reactive, onMounted } from "vue";
-import HtmlView from "../components/HtmlView.vue";
+import { onMounted } from "vue";
 
-onMounted(async () => {});
+onMounted(async () => {
+  console.log(233);
+});
 </script>
 
 <template>

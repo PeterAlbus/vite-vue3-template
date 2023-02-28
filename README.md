@@ -24,7 +24,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support for `.vue` Imports in TS
+## Type Support for `.vue` Imports in TS / `.vue` 文件的类型支持
 
 TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
@@ -39,34 +39,39 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Project Setup / 安装依赖
 
 ```sh
 npm install
+or pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compile and Hot-Reload for Development / 编译并启动热更新服务器
 
 ```sh
 npm run dev
+or pnpm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Type-Check, Compile and Minify for Production / 类型检查并编译
 
 ```sh
 npm run build
+or pnpm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Run Unit Tests with [Vitest](https://vitest.dev/) / 单元测试
 
 ```sh
 npm run test:unit
+or pnpm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint with [ESLint](https://eslint.org/) / 使用ESLint
 
 ```sh
 npm run lint
+or pnpm run lint
 ```
 
 
