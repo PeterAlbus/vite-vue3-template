@@ -20,7 +20,8 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup / 推荐IDE及插件
 
-[IntelliJ IDEA](https://www.jetbrains.com/idea/) / [WebSorm](https://www.jetbrains.com.cn/webstorm/)
+[IntelliJ IDEA](https://www.jetbrains.com/idea/) / [WebStorm](https://www.jetbrains.com.cn/webstorm/)
+
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 ## Type Support for `.vue` Imports in TS

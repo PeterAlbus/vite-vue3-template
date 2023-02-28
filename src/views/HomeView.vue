@@ -7,7 +7,7 @@ onMounted(async () => {});
 
 <template>
   <main>
-    <div class="container">Hello Vite！</div>
+    <div class="container">Hello Vite!</div>
   </main>
 </template>
 
